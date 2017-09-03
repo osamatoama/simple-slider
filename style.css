@@ -1,0 +1,23 @@
+.container {
+    overflow: hidden;
+    width: 26%;
+    margin: auto;
+}
+
+.container div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.container div.active {
+    background: #000
+}
+
+.content {
+    text-align: center
+}
